@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1890D55B16FFE73C00172193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1890D55A16FFE73C00172193 /* UIKit.framework */; };
+		1890D55D16FFE73C00172193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1890D55C16FFE73C00172193 /* Foundation.framework */; };
+		1890D55F16FFE73C00172193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1890D55E16FFE73C00172193 /* CoreGraphics.framework */; };
+		1890D56516FFE73C00172193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1890D56316FFE73C00172193 /* InfoPlist.strings */; };
+		1890D56716FFE73C00172193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890D56616FFE73C00172193 /* main.m */; };
+		1890D56B16FFE73C00172193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890D56A16FFE73C00172193 /* AppDelegate.m */; };
+		1890D56D16FFE73D00172193 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890D56C16FFE73D00172193 /* Default.png */; };
+		1890D56F16FFE73D00172193 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890D56E16FFE73D00172193 /* Default@2x.png */; };
+		1890D57116FFE73D00172193 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890D57016FFE73D00172193 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1890D55716FFE73C00172193 /* MeetingCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1890D55A16FFE73C00172193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1890D55C16FFE73C00172193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1890D55E16FFE73C00172193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1890D56216FFE73C00172193 /* MeetingCloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeetingCloud-Info.plist"; sourceTree = "<group>"; };
+		1890D56416FFE73C00172193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1890D56616FFE73C00172193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1890D56816FFE73C00172193 /* MeetingCloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeetingCloud-Prefix.pch"; sourceTree = "<group>"; };
+		1890D56916FFE73C00172193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1890D56A16FFE73C00172193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1890D56C16FFE73D00172193 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1890D56E16FFE73D00172193 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1890D57016FFE73D00172193 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1890D55416FFE73C00172193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890D55B16FFE73C00172193 /* UIKit.framework in Frameworks */,
+				1890D55D16FFE73C00172193 /* Foundation.framework in Frameworks */,
+				1890D55F16FFE73C00172193 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1890D54E16FFE73C00172193 = {
+			isa = PBXGroup;
+			children = (
+				1890D56016FFE73C00172193 /* MeetingCloud */,
+				1890D55916FFE73C00172193 /* Frameworks */,
+				1890D55816FFE73C00172193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1890D55816FFE73C00172193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1890D55716FFE73C00172193 /* MeetingCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1890D55916FFE73C00172193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1890D55A16FFE73C00172193 /* UIKit.framework */,
+				1890D55C16FFE73C00172193 /* Foundation.framework */,
+				1890D55E16FFE73C00172193 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1890D56016FFE73C00172193 /* MeetingCloud */ = {
+			isa = PBXGroup;
+			children = (
+				1890D56916FFE73C00172193 /* AppDelegate.h */,
+				1890D56A16FFE73C00172193 /* AppDelegate.m */,
+				1890D56116FFE73C00172193 /* Supporting Files */,
+			);
+			path = MeetingCloud;
+			sourceTree = "<group>";
+		};
+		1890D56116FFE73C00172193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1890D56216FFE73C00172193 /* MeetingCloud-Info.plist */,
+				1890D56316FFE73C00172193 /* InfoPlist.strings */,
+				1890D56616FFE73C00172193 /* main.m */,
+				1890D56816FFE73C00172193 /* MeetingCloud-Prefix.pch */,
+				1890D56C16FFE73D00172193 /* Default.png */,
+				1890D56E16FFE73D00172193 /* Default@2x.png */,
+				1890D57016FFE73D00172193 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1890D55616FFE73C00172193 /* MeetingCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1890D57416FFE73D00172193 /* Build configuration list for PBXNativeTarget "MeetingCloud" */;
+			buildPhases = (
+				1890D55316FFE73C00172193 /* Sources */,
+				1890D55416FFE73C00172193 /* Frameworks */,
+				1890D55516FFE73C00172193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingCloud;
+			productName = MeetingCloud;
+			productReference = 1890D55716FFE73C00172193 /* MeetingCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1890D54F16FFE73C00172193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "he songhang";
+			};
+			buildConfigurationList = 1890D55216FFE73C00172193 /* Build configuration list for PBXProject "MeetingCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1890D54E16FFE73C00172193;
+			productRefGroup = 1890D55816FFE73C00172193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1890D55616FFE73C00172193 /* MeetingCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1890D55516FFE73C00172193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890D56516FFE73C00172193 /* InfoPlist.strings in Resources */,
+				1890D56D16FFE73D00172193 /* Default.png in Resources */,
+				1890D56F16FFE73D00172193 /* Default@2x.png in Resources */,
+				1890D57116FFE73D00172193 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1890D55316FFE73C00172193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890D56716FFE73C00172193 /* main.m in Sources */,
+				1890D56B16FFE73C00172193 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1890D56316FFE73C00172193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1890D56416FFE73C00172193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1890D57216FFE73D00172193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1890D57316FFE73D00172193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1890D57516FFE73D00172193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeetingCloud/MeetingCloud-Prefix.pch";
+				INFOPLIST_FILE = "MeetingCloud/MeetingCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1890D57616FFE73D00172193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeetingCloud/MeetingCloud-Prefix.pch";
+				INFOPLIST_FILE = "MeetingCloud/MeetingCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1890D55216FFE73C00172193 /* Build configuration list for PBXProject "MeetingCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1890D57216FFE73D00172193 /* Debug */,
+				1890D57316FFE73D00172193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1890D57416FFE73D00172193 /* Build configuration list for PBXNativeTarget "MeetingCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1890D57516FFE73D00172193 /* Debug */,
+				1890D57616FFE73D00172193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1890D54F16FFE73C00172193 /* Project object */;
+}
